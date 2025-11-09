@@ -1,0 +1,8 @@
+#Create two variables, a and b.
+#Each variable’s value should be a number.
+#If a is bigger than b, have your code print "Hello World".
+
+a=89
+b=73
+if a>b:
+    print('Hello world')
