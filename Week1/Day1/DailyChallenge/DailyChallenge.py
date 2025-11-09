@@ -12,7 +12,7 @@ while True:
             new_str = ''
             for char in str_inp:
                 new_str +=char
-                print(new_str1)
+                print(new_str)
             break
     else:
         print("String is not 10 characters long. Try again.")
