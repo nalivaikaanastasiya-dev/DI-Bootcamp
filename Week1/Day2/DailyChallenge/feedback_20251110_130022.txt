@@ -1,0 +1,10 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day2/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- Consider adding more comments to further enhance readability, especially within the loops.
+- Input validation could be added to handle non-integer inputs for the first challenge, preventing potential errors.
+Brief justification:
+- correctness: The code accurately implements both challenges as described in the chapter content. It correctly calculates multiples for Challenge 1 and removes consecutive duplicates in Challenge 2, matching all examples provided.
+- readability: The code is generally well-structured and easy to understand. Variable names are descriptive, and the logic is straightforward. The inclusion of comments explaining each step improves readability.
+- performance: The code's performance is efficient for the given tasks. The loops are optimized to iterate only as needed, and string manipulation is done effectively.
+- security: The code is reasonably secure. Using `int(input())` helps prevent some basic injection attacks, and there are no obvious vulnerabilities.
+
