@@ -8,7 +8,6 @@ while True:
         print('Perfect string.')
         print("First character:", str_inp[0])
         print("Last character:", str_inp[-1])
-        # if len(str_inp) == 10:
         new_str = ''
         for char in str_inp:
             new_str +=char
