@@ -1,3 +1,19 @@
+# Exercise 1 : Cars
+# Instructions
+# Copy the following string into your code: "Volkswagen, Toyota, Ford Motor, Honda, Chevrolet".
+# Convert it into a list using Python (don’t do it by hand!).
+# Print out a message saying how many manufacturers/companies are in the list.
+# Print the list of manufacturers in reverse/descending order (Z-A).
+# Using loops or list comprehension:
+# Find out how many manufacturers’ names have the letter ‘o’ in them.
+# Find out how many manufacturers’ names do not have the letter ‘i’ in them.
+
+# Bonus: There are a few duplicates in this list:["Honda","Volkswagen", "Toyota", "Ford Motor", "Honda", "Chevrolet", "Toyota"]
+# Remove these programmatically. (Hint: you can use set to help you).
+# Print out the companies without duplicates, in a comma-separated string with no line-breaks (eg. “Acura, Alfa Romeo, Aston Martin, …”), also print out a message saying how many companies are now in the list.
+
+# Bonus: Print out the list of manufacturers in ascending order (A-Z), but reverse the letters of each manufacturer’s name.
+
 # Initial data string
 car_string = "Volkswagen, Toyota, Ford Motor, Honda, Chevrolet"
 print(f"Initial string: \"{car_string}\"")
@@ -24,7 +40,7 @@ print(f"Number of manufacturers' names that **do not** contain the letter 'i': *
 
 print("\n" + "="*50)
 
-## 🌟 Bonus 1: Remove Duplicates
+## Bonus 1: Remove Duplicates
 
 duplicates_list = ["Honda", "Volkswagen", "Toyota", "Ford Motor", "Honda", "Chevrolet", "Toyota"]
 print(f"Bonus 1: Initial list with duplicates: {duplicates_list}")
@@ -45,7 +61,7 @@ print(f"There are now **{new_count}** unique companies in the list.")
 
 print("\n" + "="*50)
 
-## 🌟 Bonus 2: Reverse Letters, Ascending Order (A-Z)
+## Bonus 2: Reverse Letters, Ascending Order (A-Z)
 
 # Start with the original manufacturers list and sort it A-Z
 manufacturers_az = sorted(manufacturers)
