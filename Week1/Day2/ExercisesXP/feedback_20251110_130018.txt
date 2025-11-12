@@ -1,0 +1,11 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day2/ExercisesXP/ExercisesXP.py
+suggestions for improvement:
+- Consider adding more comments to explain the logic in complex parts of the code, enhancing readability.
+- For the Bonus part of Exercise 9, using a dictionary to store name and age could be more efficient and readable.
+- In Exercise 4, the float sequence generation could be slightly improved using the range function with list comprehension.
+Brief justification:
+- correctness: The code accurately addresses all the exercises outlined in the chapter content, including set operations, tuple immutability demonstration, list manipulation, float sequence generation, for and while loops, and conditional statements based on user input. The bonus exercise in Cinemax tickets is also correctly implemented. Each exercise aligns perfectly with its description, demonstrating a thorough understanding of the covered topics.
+- readability: The code is generally well-structured and uses descriptive variable names. However, additional comments in some of the longer exercises would improve readability.
+- performance: The code demonstrates good performance by using appropriate data structures and algorithms for each exercise. The use of built-in functions like `union`, `remove`, `append`, and `split` contributes to efficient execution.
+- security: The code is secure, especially regarding user input. In Exercise 6 and 9, checks are performed to ensure the input is in the correct format and type, preventing potential errors and vulnerabilities.
+
