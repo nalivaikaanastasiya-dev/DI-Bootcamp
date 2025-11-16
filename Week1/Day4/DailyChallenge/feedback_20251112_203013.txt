@@ -1,0 +1,7 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day4/DailyChallenge/DailyChallenge.py
+Brief justification:
+- correctness: The code accurately implements all required functions and program flow as described in the chapter content.  It correctly handles menu display, adding, updating, and deleting items. The main loop functions as expected, and the exit condition is met. It also covers the extra challenge of validation for negative prices. It completely adheres to all the requirements outlined in the prompt.
+- readability: The code is well-organized and easy to read. Function names are descriptive, and comments explain the purpose of each section. Variable names are also clear and meaningful, improving overall readability.
+- performance: The code has good performance, as it uses efficient data structures (dictionaries) and algorithms for the given tasks. There are no unnecessary loops or computations that would slow down the program.
+- security: The code is secure, as it handles user input carefully and validates prices to prevent potential errors. It does not use any external libraries or modules that could introduce security vulnerabilities.
+

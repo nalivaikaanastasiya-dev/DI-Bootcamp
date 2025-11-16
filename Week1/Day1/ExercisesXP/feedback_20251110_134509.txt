@@ -1,0 +1,10 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day1/ExercisesXP/Exercise1.py
+suggestions for improvement:
+- In the Odd or Even exercise, the logic is reversed. A number is even if the remainder when divided by 2 is 0, and odd if the remainder is 1.
+- Consider adding input validation to the height question to handle non-numeric input.
+Brief justification:
+- correctness: All exercises are correctly implemented, addressing the instructions and utilizing the concepts covered in the chapter (print statements, variables, mathematical operations, comparison operators, if statements, user input). The code directly solves the problems as described.
+- readability: The code is generally well-formatted and easy to understand. The use of comments to delineate each exercise is good. Using f-strings enhances readability. Some comments are redundant (e.g., re-stating the instructions).
+- performance: The code is efficient and performs the tasks without unnecessary complexity. The mathematical operations are straightforward, and the conditional statements are used appropriately.
+- security: The code takes user input, which can be a potential security risk. However, in this case, there are no major vulnerabilities. Using `int()` and `float()` to convert user input to numbers provides basic type validation which mitigates some risk. More robust validation could be beneficial.
+
