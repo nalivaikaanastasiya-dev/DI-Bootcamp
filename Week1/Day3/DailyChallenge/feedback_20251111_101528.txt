@@ -1,0 +1,10 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day3/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- Consider adding comments to explain more complex logic or sections of code.
+- The code could be made more modular by defining functions for each major task.  For example, a function to clean the price, a function to calculate what can be bought, etc.
+Brief justification:
+- correctness: The code accurately and completely solves both problems as described in the chapter content. It takes user input for the first challenge, creates the correct dictionary, and handles different inputs. For the second challenge, it correctly cleans data, determines affordable items and adheres to all instructions. All test cases pass as expected.
+- readability: The code is generally well-formatted with meaningful variable names and comments that explain the purpose of different sections. However, some additional comments could clarify more complex logic or sections of code.
+- performance: The code's performance is efficient. It iterates through the word once for the first challenge and iterates through the dictionary of items once for the second challenge. The use of built-in functions like `enumerate` and `sorted` contributes to the efficiency.
+- security: The code includes precautions like using the replace method to clean the user input, which enhances security by preventing potential injection attacks or unexpected behavior. Converting the wallet and the price of items to integers makes the code more secure because integer operations are generally safe.
+
