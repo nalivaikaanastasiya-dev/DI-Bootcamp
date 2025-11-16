@@ -145,14 +145,9 @@ macdonald.add_animal('goat', 12)
 
 macdonald.add_animal(horse=2, duck=4)
 
-print("--- Step 5 Output (get_info) ---")
 print(macdonald.get_info())
 
 
-print("--- Bonus Output (get_animal_types) ---")
-
 print(macdonald.get_animal_types())
-
-print("--- Bonus Output (get_short_info) ---")
 
 print(macdonald.get_short_info())
