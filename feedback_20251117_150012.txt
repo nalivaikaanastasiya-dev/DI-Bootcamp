@@ -1,0 +1,15 @@
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day2/ExercisesXP/ExercisesXP.py
+suggestions for improvement:
+- In Exercise 1, the `Cat` class should inherit directly from object and not from `Pets`. The attributes of the `Cat` class and its subclasses should be handled correctly without the unnecessary 'animals' attribute in the init method.
+- Exercise 1: Consider if `sing()` method actually takes sound parameter. Should it be passed when calling it?
+- Exercise 3 is missing. It should be added.
+- Exercise 1: The classes' names should start with uppercase.
+- Exercise 2: Could use the formatting option in fight to show 2 digits after the dot.
+- Exercise 4: Change for loop to break when person is found in check_majority function to improve speed.
+Correctness: 66.0%
+-----
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day2/ExercisesXP/ExercisesXP1.py
+suggestions for improvement:
+- Consider adding docstrings to methods for better documentation.
+Correctness: 100%
+-----
