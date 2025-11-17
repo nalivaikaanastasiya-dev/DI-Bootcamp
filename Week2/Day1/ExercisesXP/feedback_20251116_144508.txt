@@ -1,0 +1,11 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day1/ExercisesXP/ExercisesXP.py
+suggestions for improvement:
+- Consider using more descriptive variable names for better readability.
+- In the `Dog` class, ensure the `jump()` method's output unit (meters vs. cm) aligns with the prompt's expectation. The prompt asks for 'cm' but the code uses 'meters'.
+- In `Zoo` class, the `sort_animals` method prints success message every time after adding new animal group, consider changing it to one single message.
+Brief justification:
+- correctness: The code accurately addresses all the exercises in the chapter. It correctly implements classes, objects, instantiation, methods, and attributes as outlined in the chapter content. It also uses conditional statements, lists, and dictionaries as required. All exercises are implemented as described in the chapter.
+- readability: The code is generally well-structured and easy to follow. Use of comments is helpful, but more descriptive variable names could further improve readability.
+- performance: The code demonstrates good performance. The methods used are efficient for the given tasks. For example, the `max` function with a `lambda` expression in `find_oldest_cat` is efficient for finding the oldest cat.
+- security: The code does not have any apparent security vulnerabilities. Input sanitization in `Zoo` class is good.
+
