@@ -96,10 +96,12 @@ class Pagination:
             self.total_pages = 0
         else:
             self.total_pages=math.ceil(len(self.items)/self.page_size)
+
     def get_visible_items(self):
         start_index = self.current_idx*self.page_size
         end_index = start_index + self.page_size
-        return self.items[start_index:end_index]
+        visible = self.items[start_index:end_index]
+        print(visible)
 
     def go_to_page (self, page_num):
         try:
@@ -114,6 +116,7 @@ class Pagination:
             raise ValueError('The page number must be from 1 to {self.total_pages} (inclusive).')
 
         self.current_idx = page_num - 1
+
     def first_page(self):
         if self.total_pages > 0:
             self.current_idx = 0
@@ -140,40 +143,40 @@ class Pagination:
 
 alphabetList = list('abcdefghijklmnopqrstuvwxyz')
 p = Pagination(alphabetList, 4)
+p.next_page().next_page().get_visible_items()
+# print('Initial state')
+# print(f'Total pages: {p.total_pages}')
+# print(f'Current index: (Page 1): {p.current_idx + 1}')
+# print(f'Visible elements: {p.get_visible_items()}')
 
-print('Initial state')
-print(f'Total pages: {p.total_pages}')
-print(f'Current index: (Page 1): {p.current_idx + 1}')
-print(f'Visible elements: {p.get_visible_items()}')
+# print('Next page')
+# p.next_page()
+# print(f'Current index (Psge 2): {p.current_idx + 1}')
+# print(f'Visible elements: {p.get_visible_items()}')
 
-print('Next page')
-p.next_page()
-print(f'Current index (Psge 2): {p.current_idx + 1}')
-print(f'Visible elements: {p.get_visible_items()}')
+# print('\n Last page')
+# p.last_page()
+# print(f'Current index (Page 7): {p.current_idx + 1}')
+# print(f'Visible elements: {p.get_visible_items()}')
 
-print('\n Last page')
-p.last_page()
-print(f'Current index (Page 7): {p.current_idx + 1}')
-print(f'Visible elements: {p.get_visible_items()}')
+# print('\n Go to page (3)')
+# p.go_to_page(3)
+# print(f'Current index (Page 3): {p.current_idx + 1}')
+# print(f'Visible elements: {p.get_visible_items()}')
 
-print('\n Go to page (3)')
-p.go_to_page(3)
-print(f'Current index (Page 3): {p.current_idx + 1}')
-print(f'Visible elements: {p.get_visible_items()}')
+# p.first_page()
+# print('\nMethod Chaining (Next x 3)')
+# p.next_page().next_page().next_page()
+# print(f'Current Index (Page 4): {p.current_idx + 1}')
+# print(f'Visible Items: {p.get_visible_items()}')
 
-p.first_page()
-print('\nMethod Chaining (Next x 3)')
-p.next_page().next_page().next_page()
-print(f'Current Index (Page 4): {p.current_idx + 1}')
-print(f'Visible Items: {p.get_visible_items()}')
+# print('\n Error Handling (go_to_page) ')
+# try:
+#     p.go_to_page(10)
+# except ValueError as e:
+#     print(f'Caught expected error for page 10: {e}')
 
-print('\n Error Handling (go_to_page) ')
-try:
-    p.go_to_page(10)
-except ValueError as e:
-    print(f'Caught expected error for page 10: {e}')
-
-try:
-    p.go_to_page(0)
-except ValueError as e:
-    print(f'Caught expected error for page 0: {e}')
+# try:
+#     p.go_to_page(0)
+# except ValueError as e:
+#     print(f'Caught expected error for page 0: {e}')
