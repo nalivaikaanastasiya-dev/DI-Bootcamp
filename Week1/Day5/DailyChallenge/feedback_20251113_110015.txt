@@ -1,0 +1,11 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day5/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- The code is well-structured and easy to understand.
+- Good job on handling edge cases like empty input for the first challenge.
+- Excellent use of comments to explain each step of the process.
+Brief justification:
+- correctness: The code accurately implements the instructions for both Challenge 1 (sorting comma-separated words) and Challenge 2 (finding the longest word in a sentence). The sorting challenge correctly splits the input string, sorts the words, and joins them back into a comma-separated string. The longest word challenge correctly identifies the longest word, including punctuation as part of the word, and returns the first one encountered. The outputs match the expected outputs provided in the prompt.
+- readability: The code is very readable, with clear function definitions, meaningful variable names, and helpful comments explaining each step. Using a function for each challenge enhances readability. The inclusion of example input and expected output further improves understanding.
+- performance: The code demonstrates excellent performance. It uses Python's built-in `sorted()` function, which is highly optimized for sorting, and the `.split()` and `.join()` methods are efficient for string manipulation. The longest word function iterates through the words only once, resulting in linear time complexity, which is optimal.
+- security: The code doesn't appear to have any obvious security vulnerabilities. For the sorting challenge, the input is sanitized with .strip() which improves security against some forms of injection.
+
