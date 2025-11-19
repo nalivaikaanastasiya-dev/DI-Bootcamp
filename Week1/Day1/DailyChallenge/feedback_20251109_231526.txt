@@ -1,0 +1,10 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week1/Day1/DailyChallenge/DailyChallenge.py
+suggestions for improvement:
+- The repeated length check `if len(str_inp) == 10:` inside the `elif len(str_inp)==10:` block is redundant and can be removed.
+- The `else` condition `print("String is not 10 characters long. Try again.")` is unreachable because the initial `if/elif` conditions already cover all possible length scenarios.
+Brief justification:
+- correctness: The code accurately implements all the requirements outlined in the prompt. It asks for user input, validates the string length, prints the first and last characters, and constructs the string character by character. The bonus part is not compulsory, so the absence of jumbling the string does not affect the correctness.
+- readability: The code is well-structured and easy to follow. Variable names are descriptive. Minor improvements can be made by removing redundant checks.
+- performance: The code's performance is adequate for the task. The string concatenation within the loop could be slightly optimized, but for such a small string, the impact is negligible.
+- security: The code does not involve any external resources or sensitive operations, so there are no significant security concerns.
+
