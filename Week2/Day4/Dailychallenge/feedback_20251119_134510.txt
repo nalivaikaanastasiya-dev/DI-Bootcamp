@@ -1,0 +1,10 @@
+URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day4/Dailychallenge/Daily%D0%A1hallenge.py
+suggestions for improvement:
+- Consider adding docstrings to your classes and methods for better documentation.
+- The `_get_cleaned_words` method could be integrated directly into the `__init__` method for slightly improved performance.
+Brief justification:
+- correctness: The code accurately implements all the required functionalities described in the chapter content. It correctly creates the `Text` and `TextModification` classes, implements the specified methods (`word_frequency`, `most_common_word`, `unique_words`, `from_file`, `remove_punctuation`, `remove_stop_words`, and `remove_special_characters`), and handles edge cases like empty text or missing files. The test cases also demonstrate the correct usage of these methods.
+- readability: The code is generally well-readable, with clear variable names and a logical structure. The use of helper methods like `_get_cleaned_words` enhances readability. However, the lack of docstrings slightly reduces readability.
+- performance: The code's performance is generally good. The use of `Counter` for `most_common_word` is efficient. Pre-cleaning and storing the cleaned words improves subsequent operations.  However, creating a new `TextModification` instance in the demo code for the stop words removal could be optimized by reusing the existing instance.
+- security: The code is reasonably secure. It uses `try-except` blocks to handle potential file errors, preventing crashes. The use of `encoding='utf-8'` when opening files helps to handle different character encodings.  The regex for removing special characters is also reasonably safe.
+
