@@ -1,0 +1,11 @@
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day5/Daily_challenge/Daily_challenge_OOP_Quizz_Exercise_1_Quizz.ts
+suggestions for improvement:
+- The response correctly answers the conceptual questions about OOP but does not provide any code implementing the Deck and Card classes as requested in Exercise 2.
+Correctness: 0%
+-----
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day5/Daily_challenge/Exercise_2_Create_a_deck_of_cards_class.py
+suggestions for improvement:
+- Consider adding docstrings to methods for better documentation.
+- The print statements are helpful for demonstration, but could be removed or made optional in a production environment.
+Correctness: 100%
+-----

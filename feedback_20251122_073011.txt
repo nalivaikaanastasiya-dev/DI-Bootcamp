@@ -1,0 +1,11 @@
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day5/Mini_Projects/MiniProject_Rock_Paper_Scissors/MiniProject_Rock_Paper_Scissors.py
+suggestions for improvement:
+- The game summary could show percentages of wins/losses/draws in addition to raw counts.
+- Consider adding input validation to ensure choices entered are what is expected.
+Correctness: 100%
+-----
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day5/Mini_Projects/MiniProject_Rock_Paper_Scissors/game.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
