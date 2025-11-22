@@ -1,0 +1,6 @@
+URL: URL: https://github.com/nalivaikaanastasiya-dev/DI-Bootcamp/blob/main/Week2/Day5/Mini_Projects/Miniproject_Anagram_checker/anagram_checker.py
+suggestions for improvement:
+- Consider adding docstrings to the methods in the `AnagramChecker` class to enhance readability and explain their purpose and usage.
+- The performance can be slightly improved by pre-calculating the sorted representation of the input word in `get_anagrams`.
+Correctness: 100%
+-----
